@@ -1,0 +1,25 @@
+.dark {
+    background-color: #333;
+    color: #eee;
+
+    .navbar {
+        background-color: #333 !important;
+    }
+
+    .card {
+        border: 1px solid #fff;
+        background-color: #333;
+    }
+
+    .page-numbers li a {
+        background-color: #333 !important;
+        border: 1px solid white;
+        color: #eee;
+    }
+
+    footer {
+        a {
+            color: #fff !important;
+        }
+    }
+}

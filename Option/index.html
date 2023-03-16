@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="container">
+            <h5>Category</h5>
+            <div class="option-divider-yellow"></div>
+
+            <a href="#">Business</a>
+            <a href="#">Finance and Banking</a>
+            <a href="#">Marketing</a>
+            <a href="#">Audit</a>
+            <a href="#">Research</a>
+        </div>
+        <div class="container">
+            <h5>Recent Post</h5>
+            <div class="option-divider-yellow"></div>
+            <div class="row">
+                <div class="col-12 d-flex posts">
+                    <div class="img"><img
+                            src="https://preview.enroutedigitallab.com/html/option/images/recent-post1.jpg" alt="">
+                    </div>
+                    <div class="text p-3">
+                        <h6>Business Paper</h6>
+                        <p>22 April, 17</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 d-flex posts">
+                    <div class="img"><img
+                            src="https://preview.enroutedigitallab.com/html/option/images/recent-post2.jpg" alt="">
+                    </div>
+                    <div class="text p-3">
+                        <h6>Business Paper</h6>
+                        <p>22 April, 17</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 d-flex posts">
+                    <div class="img"><img
+                            src="https://preview.enroutedigitallab.com/html/option/images/recent-post3.jpg" alt="">
+                    </div>
+                    <div class="text p-3">
+                        <h6>Business Paper</h6>
+                        <p>22 April, 17</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Option</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog-1</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Blog-2</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Blog-3</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Blog-4</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <button class="openbtn" ondblclick="closeNav()" onclick="openNav()">☰</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://preview.enroutedigitallab.com/html/option/images/banner2.jpg"
+                    alt="" srcset=""></div>
+            <div class="swiper-slide"><img src="https://preview.enroutedigitallab.com/html/option/images/banner1.jpg"
+                    alt="" srcset=""></div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="container mt-5 mb-5" id="3cards">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4" data-aos="fade-up">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/card1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Solution</h5>
+                        <p class="card-text">Has survived not only five centuries but also leap onto electronics
+                            type setting remaining essential unchanged was popular.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4" data-aos="fade-up">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/card2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Financial Service</h5>
+                        <p class="card-text">Has survived not only five centuries but also leap onto electronics
+                            type setting remaining essential unchanged was popular.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4" data-aos="fade-up">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/card3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Business proposal</h5>
+                        <p class="card-text">Has survived not only five centuries but also leap onto electronics
+                            type setting remaining essential unchanged was popular.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="colored-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <h2>30 Years</h2>
+                    <h2>Of <b>Success</b></h2>
+                    <div class="option-divider"></div>
+                    <p>xplain to you how all this mistaken idea of denouncing of the system ands expound tha actual
+                        teachings andy an happiness. No one rejects, dislikes and avoids good it is pleasure, but
+                        because those who</p>
+                    <button class="btn btn-primary buttondetail"><b>DETAILS</b></button>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-5 d-flex">
+                    <img class="imagebig" src="https://preview.enroutedigitallab.com/html/option/images/success1.png"
+                        alt="" srcset="">
+
+                    <img class="imagesmall m-5 my-auto"
+                        src="https://preview.enroutedigitallab.com/html/option/images/success2.png" alt="" srcset="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-yellow">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-5 mb-5 yellowcol">
+                    <h1 class="yellowtxt">We help to success your Business</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="videosec">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-6 videoimg1 mt-5" data-aos="fade-left">
+                    <img class="videoimg"
+                        src="https://preview.enroutedigitallab.com/html/option/images/start-project.jpg" alt=""
+                        srcset="">
+                </div>
+                <div class="col-md-6 videoimg2 mt-5" data-aos="fade-right">
+                    <h1>Lets Start</h1>
+                    <h1>Your <span>Project</span></h1>
+                    <div class="option-divider-yellow"></div>
+                    <p>xplain to you how all this mistaken idea of denouncing of the system ands expound tha actual
+                        teachings andy an happiness. No one rejects, dislikes and avoids good it is pleasure, but
+                        because those who</p>
+                    <button class="btn btn-primary buttondetail"><b>DETAILS</b></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

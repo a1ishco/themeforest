@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+
+</head>
+
+<body>
+    <div id="mode" class="light">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Game Boy <img width="40px"
+                        src="https://i.gifer.com/origin/e0/e02ce86bcfd6d1d6c2f775afb3ec8c01_w200.gif" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home<i></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navA"  href="#">News<i></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navA"  href="#">Projects<i></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navA"  href="#">Pages<i></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navA"  href="#">Cheats</a>
+                        </li>
+                    </ul>
+                    <button id="langBtn" class="btn btn-primary" type="button"><img src="img/Flag_of_Azerbaijan.svg.png"
+                            width="30px" height="20px" alt=""> AZ</button>
+                            <button id="colr" class="btn btn-outline-dark">🌙</button>
+                          <button id="logout" class="btn btn-outline-warning"><a href="login.html">Log Out</a></button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col" id="fstCol">
+                      </div>
+                    <h1 class="blog text-center align-middle">Game Boy</h1>
+                    <div class="hometxt align-middle">
+                        <p class="home text-center mx-auto ">Home // Blog</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="bottom-side">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="sidebar-first">
+                                <div class="sidebar-first-body">
+                                    <h4 class="title" id="search-txt">Search</h4>
+                                    <form class="d-flex" role="search">
+                                        <input class="form-control mx-2" type="search" id="search-txt-plc"
+                                            placeholder="Search here" aria-label="Search">
+                                        <button class="btn btn-primary" type="submit"><i id="search-icon"
+                                                class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="sidebar-first">
+                                <div class="sidebar-first-body">
+                                    <h4 class="title" id="cat">Category</h4>
+                                    <ul class="sidebar-first-catagory">
+                                        <li><a href="" class="cat-li-txt">FPS</a></li>
+                                        <li><a href="" class="cat-li-txt">RPG</a></li>
+                                        <li><a href="" class="cat-li-txt">Shooter</a></li>
+                                        <li><a href="" class="cat-li-txt">Arcade</a></li>
+                                        <li><a href="" class="cat-li-txt">Online</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="sidebar-first banner mt-5">
+                                <div class="image justify-content-center mx-auto">
+                                    <img src="img/banner-img-1.webp" alt="" srcset="">
+                                </div>
+                                <div class="banner-button mt-3 d-flex justify-content-center mx-auto">
+                                    <a href="#" class="btn btn-lg btn-default-alt" id="banner-btn">Buy now!!!</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-8 ">
+                    <div class="row g-4 mt-3">
+                        <div class="col-sm-6 ">
+                            <div class="card">
+                                <img src="img/mw2-reveal-meta-share.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Call of Duty Modern Warfare II</h5>
+                                    <p class="card-text"><span>Date Relased</span> - 2022.</p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="img/social-share-image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Call of Duty Modern Warfare</h5>
+                                    <p class="card-text"><span>Date Released</span> - 2019.</p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 mt-3">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="img/thumb-1920-1151249.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Elden Ring</h5>
+                                    <p class="card-text"><span>Date Relased</span> - 2022.</p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="img/thumb-1920-1173124.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">God Of War Ragnarok</h5>
+                                    <p class="card-text"><span>Date Relased</span> - 2022.</p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 mt-3">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="img/8406384.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">FIFA 23</h5>
+                                    <p class="card-text"><span>Date Relased</span> - 2022.</p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star "></span>
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="img/thumb-1920-1082417.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Horizon Forbidden West</h5>
+                                    <p class="card-text"><span>Date Relased</span> - 2022.</p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 mt-3">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="img/6402981a-9446-46d8-8289-e370f3158746.jpg" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Red Dead Redemption II</h5>
+                                    <p class="card-text"><span>Date Relased</span> - 2021.</p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="img/1345970-Hogwarts-Legacy-HD-Wallpaper.jpg" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hogwarts Legacy</h5>
+                                    <p class="card-text"><span>Date Relased</span> - 2023
+                                    </p>
+                                    <div class="card-rev">
+                                        <i>Rating:</i>
+                                        <div class="stars"><span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span>
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="ban-but">
+                                        <div class="banner-button mt-3 justify-content-center mx-auto">
+                                            <a href="#" class="btn btn-lg btn-default-alt" id="playBtn">Play Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mx-auto">
+                <div class="col-12">
+                    <div class="sidebar-first-body" id="pages-body">
+    
+                        <ul class="page-numbers" id="pages">
+                            <div class="col">
+                                <li><a href="">1</a></li>
+                            </div>
+                            <div class="col">
+                                <li><a href="">2</a></li>
+                            </div>
+                            <div class="col">
+                                <li><a href="">3</a></li>
+                            </div>
+                            <div class="col">
+                                <li><a href="">4</a></li>
+                            </div>
+                            <div class="col">
+                                <li class="next"><a href="">→</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footerID" class="row bg-dark mx-auto">
+        <div class="footer-first-col col-sm-6 col-md-4 " id="footer-nav-items">
+
+            <a href="/" class="footer-a d-flex align-items-center mb-3 link-dark text-decoration-none ">
+                <svg id="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 100x; width: 100px;">
+                    <path d="M0 0h512v512H0z" fill="#212529" fill-opacity="1"></path>
+                    <g class="" transform="translate(0,0)">
+                        <path id="footer-path"
+                            d="M155.084 125.945c-.46 0-.926.01-1.397.034-5.646.285-12.097 2.464-20.707 8.204-21.824 14.55-51.912 60.395-67.834 110.005-15.92 49.61-18.046 102.25 5.936 132.966 4.142 5.306 13.387 8.93 23.756 8.846 10.216-.084 20.682-3.838 26.482-9.44 1.022-1.47 9.296-13.336 21.39-27.404 12.863-14.96 28.716-31.686 45.835-38.777 41.863-17.34 93.024-17.34 134.887 0 17.118 7.092 32.97 23.818 45.834 38.778 12.095 14.068 20.37 25.933 21.39 27.404 5.8 5.602 16.267 9.356 26.483 9.44 10.368.085 19.612-3.54 23.755-8.846 23.973-30.704 21.885-83.575 5.978-133.287-15.907-49.713-46.054-95.526-67.783-109.624-11.498-7.46-19.198-8.73-26.285-7.64-7.088 1.093-14.347 5.197-22.866 11.07-17.038 11.746-38.898 30.02-73.952 30.02-35.212 0-57.115-18.514-74.13-30.356-8.505-5.92-15.73-10.025-22.743-11.078-1.315-.198-2.65-.312-4.03-.317zm212.904 48.75a16 16 0 0 1 16 16 16 16 0 0 1-16 16 16 16 0 0 1-16-16 16 16 0 0 1 16-16zM135 183h18v32h32v18h-32v32h-18v-32h-32v-18h32v-32zm200.988 23.695a16 16 0 0 1 16 16 16 16 0 0 1-16 16 16 16 0 0 1-16-16 16 16 0 0 1 16-16zm64 0a16 16 0 0 1 16 16 16 16 0 0 1-16 16 16 16 0 0 1-16-16 16 16 0 0 1 16-16zm-32 32a16 16 0 0 1 16 16 16 16 0 0 1-16 16 16 16 0 0 1-16-16 16 16 0 0 1 16-16zm-160 7h32v18h-32v-18zm64 0h27.897v18h-27.897v-18z"
+                            fill="#fff" fill-opacity="1"></path>
+                    </g>
+                </svg> </a>
+            <h6 class="footer-title my-auto">Game Boy <p class="text-muted" id="year"></p>
+            </h6>
+        </div>
+
+
+
+        <div class="footer-first-col col-sm-6 col-md-4" id="footer-nav-items">
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Main page</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-first-col  col-sm-6 col-md-4" id="footer-nav-items">
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Gameplay</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Walkthrough</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Cheats</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Forum
+                        sites</a></li>
+                <li class="nav-item mb-2"><a href="#" id="footer-nav" class="nav-link p-0 text-muted">Trainers</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script type="module" src="js/script.js"></script>
+
+</body>
+
+</html>

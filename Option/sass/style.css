@@ -1,0 +1,199 @@
+.nav-link {
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  color: blue;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  background-color: blue;
+  border-radius: 0%;
+  --bs-dropdown-link-hover-bg: transparent;
+  animation: toup 0.3s linear;
+}
+.dropdown:hover > .dropdown-menu a {
+  color: #fff;
+  width: 200px;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+  background: transparent;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.swiper {
+  width: 100%;
+}
+.swiper img {
+  width: 100%;
+  height: 50%;
+}
+
+.card {
+  border: 0px;
+}
+
+.card-img-top {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+
+.colored-section {
+  background-color: #282e3a;
+  color: #fff;
+}
+
+.option-divider {
+  width: 77px;
+  height: 8px;
+  margin: 26px 0;
+  background-color: #82858e;
+}
+
+.option-divider-yellow {
+  width: 77px;
+  height: 8px;
+  margin: 26px 0;
+  background-color: yellow;
+}
+
+.imagebig {
+  height: 80%;
+}
+
+.imagesmall {
+  height: 60%;
+}
+
+.buttondetail:hover {
+  color: yellow;
+}
+
+.section-yellow {
+  background: url("https://preview.enroutedigitallab.com/html/option/images/help-success-bg.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+}
+.section-yellow ::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 0, 0.5);
+}
+
+.yellowtxt {
+  position: relative;
+  font-weight: lighter;
+  color: #000;
+  z-index: 9999;
+}
+
+.yellowcol {
+  background: transparent;
+}
+
+.videoimg {
+  height: 80%;
+  width: auto;
+}
+
+.videoimg2 h1 {
+  font-weight: lighter;
+}
+.videoimg2 span {
+  font-weight: bold;
+}
+
+.fa {
+  color: blue;
+  cursor: pointer;
+}
+
+.openbtn {
+  border: 0px;
+  background: transparent;
+  font-weight: bolder;
+  font-size: large;
+  margin-left: 15px;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #fbfbfb;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+.sidebar .container {
+  width: 90%;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.sidebar a {
+  padding: 0px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar h5 {
+  padding: 20px 0px 0px 25px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.sidebar .option-divider-yellow {
+  margin-left: 25px;
+}
+
+.sidebar a:hover {
+  color: blue;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.posts {
+  padding: 0px 0px 0px 30px;
+}
+
+.text {
+  font-size: 13px;
+}
+
+@keyframes toup {
+  from {
+    top: 50px;
+  }
+  to {
+    top: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
